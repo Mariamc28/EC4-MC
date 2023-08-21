@@ -41123,7 +41123,7 @@ var PageHome = /*#__PURE__*/function (_React$Component) {
   }, {
     key: "render",
     value: function render() {
-      return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("h1", null, "Aplicaci\xF3n Demo"), /*#__PURE__*/React.createElement("div", {
+      return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("h1", null, "Aplicaci\xF3n Libros"), /*#__PURE__*/React.createElement("div", {
         style: {
           "width": "100%",
           "display": "flex"
@@ -41133,24 +41133,24 @@ var PageHome = /*#__PURE__*/function (_React$Component) {
           "width": "calc(100%/3)"
         }
       }, /*#__PURE__*/React.createElement(Titulo, {
-        entidad: "Instrumento",
+        entidad: "Libros",
         emoji: "\uD83C\uDFB8"
       }), /*#__PURE__*/React.createElement(InstrumentoList, {
         instrumentos: this.state.instrumentos
       }), /*#__PURE__*/React.createElement("br", null), /*#__PURE__*/React.createElement(Link, {
         to: "/nuevo-instrumento"
-      }, "Nuevo Instrumento")), /*#__PURE__*/React.createElement("div", {
+      }, "Nuevo Libro")), /*#__PURE__*/React.createElement("div", {
         style: {
           "width": "calc(100%/3)"
         }
       }, /*#__PURE__*/React.createElement(Titulo, {
-        entidad: "M\xFAsico",
+        entidad: "Autor",
         emoji: "\uD83C\uDFB5"
       }), /*#__PURE__*/React.createElement(MusicoList, {
         musicos: this.state.musicos
       }), /*#__PURE__*/React.createElement("br", null), /*#__PURE__*/React.createElement(Link, {
         to: "/nuevo-musico"
-      }, "Nuevo M\xFAsico")), /*#__PURE__*/React.createElement("div", {
+      }, "Nuevo Autor")), /*#__PURE__*/React.createElement("div", {
         style: {
           "width": "calc(100%/3)"
         }
@@ -41161,7 +41161,7 @@ var PageHome = /*#__PURE__*/function (_React$Component) {
         bandas: this.state.bandas
       }), /*#__PURE__*/React.createElement("br", null), /*#__PURE__*/React.createElement(Link, {
         to: "/nueva-banda"
-      }, "Nueva Banda"))));
+      }, "Nueva Editorial"))));
     }
   }]);
   return PageHome;

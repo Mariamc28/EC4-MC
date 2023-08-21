@@ -21,29 +21,29 @@ class PageHome extends React.Component {
 	render() {
 		return (
 			<>
-                <h1>Aplicación Demo</h1>
+                <h1>Aplicación Libros</h1>
 
 				<div style={{"width": "100%","display": "flex"}} >
 
 					<div style={{"width": "calc(100%/3)"}}>
-						<Titulo entidad="Instrumento" emoji="🎸" />
+						<Titulo entidad="Libros" emoji="🎸" />
 						<InstrumentoList instrumentos={this.state.instrumentos} />
 						<br />
-						<Link to="/nuevo-instrumento">Nuevo Instrumento</Link>
+						<Link to="/nuevo-instrumento">Nuevo Libro</Link>
 					</div>
 
 					<div style={{"width": "calc(100%/3)"}}>
-						<Titulo entidad="Músico" emoji="🎵" />
+						<Titulo entidad="Autor" emoji="🎵" />
 						<MusicoList musicos={this.state.musicos} />
 						<br />
-						<Link to="/nuevo-musico">Nuevo Músico</Link>
+						<Link to="/nuevo-musico">Nuevo Autor</Link>
 					</div>
 
 					<div style={{"width": "calc(100%/3)"}}>
-						<Titulo entidad="Banda" emoji="👩🏼‍🎤" />
+						<Titulo entidad="Editorial" emoji="👩🏼‍🎤" />
 						<BandaList bandas={this.state.bandas} />
 						<br />
-						<Link to="/nueva-banda">Nueva Banda</Link>
+						<Link to="/nueva-banda">Nueva Editorial</Link>
 					</div>
 
 				</div>
